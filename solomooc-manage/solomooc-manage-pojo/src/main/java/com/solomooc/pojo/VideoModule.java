@@ -1,32 +1,31 @@
 package com.solomooc.pojo;
 
+import com.solomooc.common.po.BasePojo;
+
 import java.util.Date;
-
-public class VideoModule {
+//视频模块
+public class VideoModule extends BasePojo{
+    //模块ID
     private Long moduleId;
-
+    //模块名称
     private String moduleName;
-
-    private Long classId;
-
+    //视频类别ID
+    private  Long classId;
+    //图片
     private String image;
-
+    //价格
     private Double price;
-
+    //评分
     private Double score;
-
+    //购买人数
     private Integer buyed;
-
+    //赚取金额 通过这个统计这个模块买了多少钱 包括原价或者秒杀价
     private Double earn;
-
+    //模块状态 0正常 1禁用 更新 2删除
     private Integer moduleStatus;
-
+    //热度
     private Integer heat;
-
-    private Date created;
-
-    private Date updated;
-
+    //模块简介
     private String intro;
 
     public Long getModuleId() {
@@ -42,7 +41,7 @@ public class VideoModule {
     }
 
     public void setModuleName(String moduleName) {
-        this.moduleName = moduleName == null ? null : moduleName.trim();
+        this.moduleName = moduleName;
     }
 
     public Long getClassId() {
@@ -58,7 +57,7 @@ public class VideoModule {
     }
 
     public void setImage(String image) {
-        this.image = image == null ? null : image.trim();
+        this.image = image;
     }
 
     public Double getPrice() {
@@ -109,27 +108,11 @@ public class VideoModule {
         this.heat = heat;
     }
 
-    public Date getCreated() {
-        return created;
-    }
-
-    public void setCreated(Date created) {
-        this.created = created;
-    }
-
-    public Date getUpdated() {
-        return updated;
-    }
-
-    public void setUpdated(Date updated) {
-        this.updated = updated;
-    }
-
     public String getIntro() {
         return intro;
     }
 
     public void setIntro(String intro) {
-        this.intro = intro == null ? null : intro.trim();
+        this.intro = intro;
     }
 }

@@ -1,33 +1,32 @@
 package com.solomooc.pojo;
 
+import com.solomooc.common.po.BasePojo;
+
 import java.util.Date;
 
-public class User {
+public class User extends BasePojo{
+    //用户ID
     private Long userId;
-
+    //用户名
     private String username;
-
+    //密码
     private String password;
-
+    //手机
     private String phone;
-
+    //等级 会员制
     private Integer level;
-
+    //状态 0正常 1警告 2禁用
     private Integer status;
-
+    //昵称
     private String nickname;
-
+    //身份证
     private Integer cardId;
-
+    //邮箱
     private String email;
-
+    //性别
     private Integer gender;
-
+    //头像图片
     private String headImage;
-
-    private Date created;
-
-    private Date updated;
 
     public Long getUserId() {
         return userId;
@@ -42,7 +41,7 @@ public class User {
     }
 
     public void setUsername(String username) {
-        this.username = username == null ? null : username.trim();
+        this.username = username;
     }
 
     public String getPassword() {
@@ -50,7 +49,7 @@ public class User {
     }
 
     public void setPassword(String password) {
-        this.password = password == null ? null : password.trim();
+        this.password = password;
     }
 
     public String getPhone() {
@@ -58,7 +57,7 @@ public class User {
     }
 
     public void setPhone(String phone) {
-        this.phone = phone == null ? null : phone.trim();
+        this.phone = phone;
     }
 
     public Integer getLevel() {
@@ -82,7 +81,7 @@ public class User {
     }
 
     public void setNickname(String nickname) {
-        this.nickname = nickname == null ? null : nickname.trim();
+        this.nickname = nickname;
     }
 
     public Integer getCardId() {
@@ -98,7 +97,7 @@ public class User {
     }
 
     public void setEmail(String email) {
-        this.email = email == null ? null : email.trim();
+        this.email = email;
     }
 
     public Integer getGender() {
@@ -114,22 +113,6 @@ public class User {
     }
 
     public void setHeadImage(String headImage) {
-        this.headImage = headImage == null ? null : headImage.trim();
-    }
-
-    public Date getCreated() {
-        return created;
-    }
-
-    public void setCreated(Date created) {
-        this.created = created;
-    }
-
-    public Date getUpdated() {
-        return updated;
-    }
-
-    public void setUpdated(Date updated) {
-        this.updated = updated;
+        this.headImage = headImage;
     }
 }

@@ -1,23 +1,22 @@
 package com.solomooc.pojo;
 
+import com.solomooc.common.po.BasePojo;
+
 import java.util.Date;
 
-public class Video {
+public class Video extends BasePojo{
+    //视频ID
     private Long videoId;
-
+    //视频名称
     private String videoName;
-
+    //视频标题
     private String title;
-
+    //视频模块
     private Long moduleId;
-
+    //视频状态
     private Integer videoStatus;
-
+    //视频连接
     private String url;
-
-    private Date created;
-
-    private Date updated;
 
     public Long getVideoId() {
         return videoId;
@@ -32,7 +31,7 @@ public class Video {
     }
 
     public void setVideoName(String videoName) {
-        this.videoName = videoName == null ? null : videoName.trim();
+        this.videoName = videoName;
     }
 
     public String getTitle() {
@@ -40,7 +39,7 @@ public class Video {
     }
 
     public void setTitle(String title) {
-        this.title = title == null ? null : title.trim();
+        this.title = title;
     }
 
     public Long getModuleId() {
@@ -64,22 +63,6 @@ public class Video {
     }
 
     public void setUrl(String url) {
-        this.url = url == null ? null : url.trim();
-    }
-
-    public Date getCreated() {
-        return created;
-    }
-
-    public void setCreated(Date created) {
-        this.created = created;
-    }
-
-    public Date getUpdated() {
-        return updated;
-    }
-
-    public void setUpdated(Date updated) {
-        this.updated = updated;
+        this.url = url;
     }
 }

@@ -1,23 +1,22 @@
 package com.solomooc.pojo;
 
+import com.solomooc.common.po.BasePojo;
+
 import java.util.Date;
 
-public class Cart {
+public class Cart extends BasePojo{
+    //购物车ID
     private Long cartId;
-
+    //用户ID
     private Long userId;
-
+    //模块ID
     private Long moduleId;
-
+    //模块名称
     private String moduleName;
-
+    //图片
     private String image;
-
+    //价格
     private Double price;
-
-    private Date created;
-
-    private Date updated;
 
     public Long getCartId() {
         return cartId;
@@ -48,7 +47,7 @@ public class Cart {
     }
 
     public void setModuleName(String moduleName) {
-        this.moduleName = moduleName == null ? null : moduleName.trim();
+        this.moduleName = moduleName;
     }
 
     public String getImage() {
@@ -56,7 +55,7 @@ public class Cart {
     }
 
     public void setImage(String image) {
-        this.image = image == null ? null : image.trim();
+        this.image = image;
     }
 
     public Double getPrice() {
@@ -65,21 +64,5 @@ public class Cart {
 
     public void setPrice(Double price) {
         this.price = price;
-    }
-
-    public Date getCreated() {
-        return created;
-    }
-
-    public void setCreated(Date created) {
-        this.created = created;
-    }
-
-    public Date getUpdated() {
-        return updated;
-    }
-
-    public void setUpdated(Date updated) {
-        this.updated = updated;
     }
 }

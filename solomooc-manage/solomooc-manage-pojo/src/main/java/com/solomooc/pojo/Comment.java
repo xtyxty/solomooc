@@ -1,20 +1,19 @@
 package com.solomooc.pojo;
 
+import com.solomooc.common.po.BasePojo;
+
 import java.util.Date;
 
-public class Comment {
+public class Comment extends BasePojo{
+    //评论ID
     private Long commentId;
-
+    //用户ID
     private Long userId;
-
+    //模块ID
     private Long moduleId;
-
+    //评分
     private Double score;
-
-    private Date created;
-
-    private Date updated;
-
+    //评论内容
     private String detail;
 
     public Long getCommentId() {
@@ -49,27 +48,11 @@ public class Comment {
         this.score = score;
     }
 
-    public Date getCreated() {
-        return created;
-    }
-
-    public void setCreated(Date created) {
-        this.created = created;
-    }
-
-    public Date getUpdated() {
-        return updated;
-    }
-
-    public void setUpdated(Date updated) {
-        this.updated = updated;
-    }
-
     public String getDetail() {
         return detail;
     }
 
     public void setDetail(String detail) {
-        this.detail = detail == null ? null : detail.trim();
+        this.detail = detail;
     }
 }

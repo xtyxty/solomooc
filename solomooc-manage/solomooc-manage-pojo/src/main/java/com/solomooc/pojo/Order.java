@@ -1,23 +1,22 @@
 package com.solomooc.pojo;
 
+import com.solomooc.common.po.BasePojo;
+
 import java.util.Date;
 
-public class Order {
+public class Order extends BasePojo{
+    //订单ID
     private Long orderId;
-
+    //实付金额
     private Double payment;
-
+    //支付状态 0易宝支付
     private Integer payType;
-
+    //订单状态
     private Integer orderStatus;
-
+    //交易结束时间
     private Date endTime;
-
+    //用户ID
     private Long userId;
-
-    private Date created;
-
-    private Date updated;
 
     public Long getOrderId() {
         return orderId;
@@ -65,21 +64,5 @@ public class Order {
 
     public void setUserId(Long userId) {
         this.userId = userId;
-    }
-
-    public Date getCreated() {
-        return created;
-    }
-
-    public void setCreated(Date created) {
-        this.created = created;
-    }
-
-    public Date getUpdated() {
-        return updated;
-    }
-
-    public void setUpdated(Date updated) {
-        this.updated = updated;
     }
 }

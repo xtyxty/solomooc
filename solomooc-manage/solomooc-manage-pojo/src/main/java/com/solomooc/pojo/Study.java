@@ -1,19 +1,18 @@
 package com.solomooc.pojo;
 
+import com.solomooc.common.po.BasePojo;
+
 import java.util.Date;
 
-public class Study {
+public class Study extends BasePojo{
+    //学习ID
     private Long studyId;
-
+    //用户ID
     private Long userId;
-
+    //模块ID
     private Long moduleId;
-
-    private Long vieoId;
-
-    private Date createdTime;
-
-    private String column6;
+    //视频ID
+    private Long videoId;
 
     public Long getStudyId() {
         return studyId;
@@ -39,27 +38,11 @@ public class Study {
         this.moduleId = moduleId;
     }
 
-    public Long getVieoId() {
-        return vieoId;
+    public Long getVideoId() {
+        return videoId;
     }
 
-    public void setVieoId(Long vieoId) {
-        this.vieoId = vieoId;
-    }
-
-    public Date getCreatedTime() {
-        return createdTime;
-    }
-
-    public void setCreatedTime(Date createdTime) {
-        this.createdTime = createdTime;
-    }
-
-    public String getColumn6() {
-        return column6;
-    }
-
-    public void setColumn6(String column6) {
-        this.column6 = column6 == null ? null : column6.trim();
+    public void setVideoId(Long videoId) {
+        this.videoId = videoId;
     }
 }

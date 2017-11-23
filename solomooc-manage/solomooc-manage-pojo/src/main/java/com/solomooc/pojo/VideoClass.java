@@ -1,15 +1,16 @@
 package com.solomooc.pojo;
 
-import java.util.Date;
+import com.solomooc.common.po.BasePojo;
 
-public class VideoClass {
+import java.util.Date;
+//视频类别
+public class VideoClass extends BasePojo{
+    //视频类别ID
     private Long classId;
 
+    //类别名称
     private String className;
 
-    private Date created;
-
-    private Date updated;
 
     public Long getClassId() {
         return classId;
@@ -27,19 +28,4 @@ public class VideoClass {
         this.className = className == null ? null : className.trim();
     }
 
-    public Date getCreated() {
-        return created;
-    }
-
-    public void setCreated(Date created) {
-        this.created = created;
-    }
-
-    public Date getUpdated() {
-        return updated;
-    }
-
-    public void setUpdated(Date updated) {
-        this.updated = updated;
-    }
 }
