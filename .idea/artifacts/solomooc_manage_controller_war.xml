@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="solomooc-manage-controller:war">
+    <output-path>$PROJECT_DIR$/solomooc-manage/solomooc-manage-controller/target</output-path>
+    <root id="archive" name="solomooc-manage-controller-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="solomooc-manage-controller:war exploded" />
+    </root>
+  </artifact>
+</component>

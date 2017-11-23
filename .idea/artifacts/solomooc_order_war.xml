@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="solomooc-order:war">
+    <output-path>$PROJECT_DIR$/solomooc-order/target</output-path>
+    <root id="archive" name="solomooc-order.war">
+      <element id="artifact" artifact-name="solomooc-order:war exploded" />
+    </root>
+  </artifact>
+</component>

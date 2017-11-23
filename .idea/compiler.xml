@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="solomooc-cart" />
+        <module name="solomooc-common" />
+        <module name="solomooc-jsoup" />
+        <module name="solomooc-manage-controller" />
+        <module name="solomooc-manage-mapper" />
+        <module name="solomooc-manage-pojo" />
+        <module name="solomooc-manage-service" />
+        <module name="solomooc-order" />
+        <module name="solomooc-search" />
+        <module name="solomooc-sso" />
+        <module name="solomooc-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="solomooc" target="1.5" />
+      <module name="solomooc-cart" target="1.5" />
+      <module name="solomooc-common" target="1.5" />
+      <module name="solomooc-jsoup" target="1.5" />
+      <module name="solomooc-manage" target="1.5" />
+      <module name="solomooc-manage-controller" target="1.5" />
+      <module name="solomooc-manage-mapper" target="1.5" />
+      <module name="solomooc-manage-pojo" target="1.5" />
+      <module name="solomooc-manage-service" target="1.5" />
+      <module name="solomooc-order" target="1.5" />
+      <module name="solomooc-search" target="1.5" />
+      <module name="solomooc-sso" target="1.5" />
+      <module name="solomooc-web" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

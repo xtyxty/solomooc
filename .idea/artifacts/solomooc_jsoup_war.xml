@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="solomooc-jsoup:war">
+    <output-path>$PROJECT_DIR$/solomooc-jsoup/target</output-path>
+    <root id="archive" name="solomooc-jsoup.war">
+      <element id="artifact" artifact-name="solomooc-jsoup:war exploded" />
+    </root>
+  </artifact>
+</component>

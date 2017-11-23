@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="solomooc-cart:war">
+    <output-path>$PROJECT_DIR$/solomooc-cart/target</output-path>
+    <root id="archive" name="solomooc-cart.war">
+      <element id="artifact" artifact-name="solomooc-cart:war exploded" />
+    </root>
+  </artifact>
+</component>

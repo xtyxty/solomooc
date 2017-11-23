@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/solomooc.iml" filepath="$PROJECT_DIR$/solomooc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solomooc-cart/solomooc-cart.iml" filepath="$PROJECT_DIR$/solomooc-cart/solomooc-cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solomooc-common/solomooc-common.iml" filepath="$PROJECT_DIR$/solomooc-common/solomooc-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solomooc-jsoup/solomooc-jsoup.iml" filepath="$PROJECT_DIR$/solomooc-jsoup/solomooc-jsoup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solomooc-manage/solomooc-manage.iml" filepath="$PROJECT_DIR$/solomooc-manage/solomooc-manage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solomooc-manage/solomooc-manage-controller/solomooc-manage-controller.iml" filepath="$PROJECT_DIR$/solomooc-manage/solomooc-manage-controller/solomooc-manage-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solomooc-manage/solomooc-manage-mapper/solomooc-manage-mapper.iml" filepath="$PROJECT_DIR$/solomooc-manage/solomooc-manage-mapper/solomooc-manage-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solomooc-manage/solomooc-manage-pojo/solomooc-manage-pojo.iml" filepath="$PROJECT_DIR$/solomooc-manage/solomooc-manage-pojo/solomooc-manage-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solomooc-manage/solomooc-manage-service/solomooc-manage-service.iml" filepath="$PROJECT_DIR$/solomooc-manage/solomooc-manage-service/solomooc-manage-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solomooc-order/solomooc-order.iml" filepath="$PROJECT_DIR$/solomooc-order/solomooc-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solomooc-search/solomooc-search.iml" filepath="$PROJECT_DIR$/solomooc-search/solomooc-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solomooc-sso/solomooc-sso.iml" filepath="$PROJECT_DIR$/solomooc-sso/solomooc-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solomooc-web/solomooc-web.iml" filepath="$PROJECT_DIR$/solomooc-web/solomooc-web.iml" />
+    </modules>
+  </component>
+</project>
