@@ -20,7 +20,7 @@
   	<title>SoloMooc</title>
 </head>
 <body>
-    <%@include="head.jsp">
+    <%@include file="head.jsp"%>
     <div id="content-wrapper">
 
         <!-- TT-MSLIDE -->
@@ -828,7 +828,7 @@
 
 
     <!-- FOOTER -->
-    <%@include="foot.jsp">
+    <%@ include file="foot.jsp"%>
     <script src="js/jquery-1.12.1.min.js"></script>
     <script src="bootstrap/3.3.6/js/bootstrap.min.js" ></script>
     <script src="js/idangerous.swiper.min.js"></script>
